@@ -1,0 +1,40 @@
+{
+  "name": "vite-svelte-bun",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "keywords": [
+    "vite",
+    "svelte",
+    "bun",
+    "skeleton",
+    "template"
+  ],
+  "author": "Rod Howard",
+  "license": "ISC",
+  "scripts": {
+    "start": "bunx --bun vite",
+    "build": "bunx --bun vite build",
+    "lint": "eslint --fix '**/*'",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2",
+    "svelte": "^4",
+    "vite": "^4"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "eslint": "^8",
+    "eslint-config-airbnb-base": "^15",
+    "eslint-config-prettier": "^9",
+    "eslint-plugin-import": "^2",
+    "eslint-plugin-prettier": "^5",
+    "eslint-plugin-svelte": "^2",
+    "prettier": "^3"
+  },
+  "module": "index.ts",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
