@@ -1,7 +1,7 @@
 {
-  "name": "vite-svelte-bun",
-  "private": true,
-  "version": "0.0.0",
+  "name": "vite-svelte-template",
+  "description": "Lean Svelte skeleton built using Vite on the Bun runtime.",
+  "version": "1.0.0",
   "type": "module",
   "keywords": [
     "vite",
